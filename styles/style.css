@@ -1,0 +1,47 @@
+html{ 
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    background-color: rgb(253, 237, 145);
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fcad3f;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+  }
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    background-color: rgb(247, 218, 55);
+    color: gray;
+    /* text-shadow: rgb(255, 0, 0); */
+    /* margin: 0; margin any ambony */ 
+    padding: 20px 0;    
+    /* 20px ny ahavony, 0 ny velarany */
+    color: #00539F;
+    text-shadow: 3px 5px 5px rgb(255, 77, 77);    
+}
+
+p, li{
+    font-size: 16px;
+    line-height: 2; /* interligne */
+    letter-spacing: 1px; /* elanelana lettre */
+    /* text-shadow: rgb(128, 255, 0); */
+    /* display: block; fisehony amin écran*/
+        
+}
+
+img{
+    display: block;
+    /* atao display bloc mba ahafahana manakisaka azy, bloc no afa asina margin, ny img anefa inline */
+    margin: 0 auto;
+    /* 0 ny ahavony, auto fivelarany */
+}
+
+button{
+    margin-top: 10px;
+}
